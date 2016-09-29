@@ -7,3 +7,7 @@ This workshop will introduce Jupyter Notebooks, a platform for interactive compu
 
 
 [status page](http://mybinder.org/status/dssatpitt/jupyter-workshop)
+
+
+To run this on your local machine, [install docker](https://docs.docker.com/engine/installation/) and then execute the following command:
+```docker run -it -v "$(pwd):/home/jovyan/work" -p 8888:8888 jupyter/datascience-notebook```
